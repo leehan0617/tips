@@ -21,7 +21,7 @@ gradle init --type java-application
 7. Gradle JVM도 jdk 11을 선택한다.
 8. OK를 누르면 프로젝트가 정상적으로 열린다.(열려야한다.)
 9. build.gradle을 보면 gradle init으로 만들어서 기본적인 설정이 되어있는데 다 지운다.
-10.build.gradle를 아래와 같이 수정
+10. build.gradle를 아래와 같이 수정
 ```
 allprojects {
     apply plugin: 'java'
