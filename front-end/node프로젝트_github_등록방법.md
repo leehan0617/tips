@@ -3,8 +3,9 @@
 3. 로컬 프로젝트에 이 프로젝트의 원격 저장소 주소를 지정한다.(이 프로젝트는 이 github 주소에 등록할거야라고 하는것이다.)
 명령어로는 
 ```
-git remote add origin "https://github.com/leehan0617/tips" 이걸치면된다. ("" 안의 주소는자신의 github 프로젝트 url로 수정)
+git remote add origin "https://github.com/leehan0617/tips"
 ```
+이걸치면된다. ("" 안의 주소는자신의 github 프로젝트 url로 수정)
 만약에 위의 명령어가 정상적으로 작동하지 않는다면
 ```
 git init
