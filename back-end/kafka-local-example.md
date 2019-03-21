@@ -10,9 +10,11 @@
 ```
 ./bin/zookeeper-server-start.sh config/zookeeper.properties 
 ```
-위와 같이 실행하면 맨 마지ㅏㅁㄱ에 2181포트에 binding이 되었다고 콘솔에 출력된다. (2181은 기본포트)
+위와 같이 실행하면 맨 마지막에 2181포트에 binding이 되었다고 콘솔에 출력된다. (2181은 기본포트)
 내 기준 아래와 같이 출력됬다.
+```
 INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+```
 6. kafka를 실행한다. 
 ```
 ./bin/kafka-server-start.sh config/kafka.properties
