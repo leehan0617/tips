@@ -35,5 +35,5 @@ INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServer
 ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 ```
 다른 블로그나 구글검색을 통해 예제를 보면 consumer실행할때 --bootstrap-server 대신 -zookeeper를 사용하는데, -zookeeper 옵션이 deprecated 된거 같다.
-현재 버전에서는 --bootstrap-server property를 사용하자.
+현재 버전에서는 --bootstrap-server property를 사용하자.<br>
 9. 둘다 띄운상태에서 producer에 메세지를 입력하고 consumer에 정상출력되는걸 확인하면 끝.
